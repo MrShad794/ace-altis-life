@@ -64,8 +64,7 @@ class Mission
 		"A3_Structures_F_EPC_Civ_Garbage",
 		"A3_Structures_F_EPB_Civ_Garbage",
 		"A3_Weapons_F_Headgear",
-		"A3_Weapons_F_Uniforms",
-		"A3_Characters_F_Kart"
+		"A3_Weapons_F_Uniforms"
 	};
 	addOnsAuto[]=
 	{
@@ -73,7 +72,6 @@ class Mission
 		"a3_characters_f",
 		"A3_Characters_F_Civil",
 		"A3_Characters_F_OPFOR",
-		"A3_Characters_F_Kart",
 		"A3_Characters_F_Gamma",
 		"A3_Structures_F_Civ_Garbage",
 		"A3_Structures_F_Civ_Constructions",
@@ -1115,6 +1113,7 @@ class Mission
 					id=49;
 					side="CIV";
 					vehicle="C_man_1_3_F";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					text="civ_70";
@@ -1786,7 +1785,7 @@ class Mission
 					special="NONE";
 					id=99;
 					side="CIV";
-					vehicle="C_Driver_2_F";
+					vehicle="C_man_1";
 					skill=0.60000002;
 					text="license_shop";
 					init="this allowDamage false;  this enableSimulation false;  this addAction[format[""%1 ($%2)"",[""license_civ_driver""] call life_fnc_varToStr,[([""driver""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide == civilian '];  this addAction[format[""%1 ($%2)"",[""license_civ_boat""] call life_fnc_varToStr,[([""boat""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide == civilian '];  this addAction[format[""%1 ($%2)"",[""license_civ_air""] call life_fnc_varToStr,[([""pilot""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_air && playerSide == civilian '];  this addAction[format[""%1 ($%2)"",[""license_civ_truck""] call life_fnc_varToStr,[([""truck""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""truck"",0,false,false,"""",' !license_civ_truck && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_home""] call life_fnc_varToStr,[([""home""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide == civilian ']; this setVariable[""realname"",""License Shop""];";
@@ -3118,7 +3117,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1395;
+		items=1394;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16480,14 +16479,6 @@ class Mission
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false;";
-		};
-		class Item1394
-		{
-			position[]={3363.4248,2.2197597,12981.761};
-			id=1587;
-			side="EMPTY";
-			vehicle="Land_HumanSkeleton_F";
-			skill=0.60000002;
 		};
 	};
 	class Markers
