@@ -88,6 +88,8 @@ switch (_shop) do
 			["I_Heli_light_03_unarmed_F",2500000];
 			_return pushBack
 			["O_Heli_Transport_04_F",3500000];
+			_return pushBack
+			["O_Heli_Light_02_F",10000000];
 						
 		};
 	};

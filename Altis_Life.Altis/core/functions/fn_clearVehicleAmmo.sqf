@@ -10,6 +10,11 @@ _vehicle = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 if(isNull _vehicle) exitWith {}; //DAFUQ
 _veh = typeOf _vehicle;
 
+
+if(_veh == "O_Heli_Light_02_F") then
+{
+	_vehicle removeMagazinesTurret ["12Rnd_PG_missiles",[0]];
+};
 if(_veh == "B_Boat_Armed_01_minigun_F") then
 {
 	_vehicle removeMagazinesTurret ["200Rnd_40mm_G_belt",[0]];
