@@ -72,15 +72,16 @@ player createDiarySubject ["controls","Controls"];
 			"The UN Handbook",
 				"
 				The United Nations job is to create a secure country for the civilian population. Deal with any illegal activities from the Civilian population and the Altis Liberation Army. Ensure peace and order. (Follow the overall rules)<br/>
-				UN Soldiers Must Always Be On TeamSpeak when it's up.<br/>
+				UN Soldiers Must Always Be On Teamspeak, the ip is: 85.236.100.124:10037<br/>
 				It is the UN duty to protect civilians.<br/>
 				Any weapons found lying on the floor must be seized.<br/><br/>
 				
 				Killing and Arresting Rules:<br/>
-				To arrrest you must take the suspect to any UN HQ(Spawn-points)<br/>
+				To arrest you must take the suspect to any UN HQ(Spawn-points)<br/>
 				1. UN can only ever kill civilians in self-defence.<br/>
 				2. UN is required to try and arrest criminals not kill them.<br/>
 				3. UN is to use the ticket system for arrests.<br/><br/>
+				4. UN is to interrogate the suspects for information, if you do this as RP don't send the suspect to jail after, they served their time.
 				
 				Search Rules:<br/>
 				1. UN can only search civilians if they have probable cause and believe the civilian has committed a crime.<br/>
@@ -95,7 +96,13 @@ player createDiarySubject ["controls","Controls"];
 				3. Wait for civilians to put there hands up instead of stunning them.<br/>
 				4. Civilians who loiter at checkpoints or aggravate police may be arrest.<br/><br/>
 				
-				Drug and gang enforcement:<br/>
+				Hostage situation rules:<br/>
+				1. This one's simple, do NOT kill the hostages (do not even attempt to fire if it threatens their life).<br/>
+				2. Try to negotiate with the captor, do not just kill him, this would break the above rule of endangering the hostage.<br/>
+				3. Try to Role-play it out as much as possible, if you get captured, you can no longer communicate via group chat or teamspeak.<br/>
+				4. Do not meta-game by heading straight to the location of another captured soldier, your character doesn't know they are being held captive.<br/><br/>
+				
+				Drug and gang enforcement rules:<br/>
 				1. UN must have at least 3 officers to raid a gang area.<br/>
 				2. UN soldiers may not camp the gang areas.<br/>
 				3. UN soldiers can pay civilians for information.<br/>
@@ -103,18 +110,18 @@ player createDiarySubject ["controls","Controls"];
 				5. If a civilian has a drug processing license you may not arrest them because of it.<br/>
 				6. UN soldiers should always arrest criminals only killing them if they pose extreme danger to them or anyone around them.<br/><br/>
 				
-				Ticketing Guidelines:<br/>
-				Use your judgement, these are just rough guidelines<br/>
-				All of these are strictly guidelines and do not have to be followed to the letter.<br/>
-				• Speeding > $10,000 Ticket<br/>
-				• Possession of an illegal handgun = $20,000 Ticket and weapon removal<br/>
-				• Possession of an illegal rifle = $25,000 Ticket and weapon removal<br/>
+				Ticketing Rules:<br/>
+				
+				• Trespassing on UN Property > $125 Ticket<br/>
+				• Speeding > $1000 Ticket<br/>
+				• Possession of an illegal handgun = $5,000 Ticket and weapon removal<br/>
+				• Possession of an illegal rifle = $10,000 Ticket and weapon removal<br/>
 				• Possession of an illegal LMG = $30,000 Ticket and weapon removal<br/>
 				• Possession of illegal ordnance = $55,000 Ticket and weapon removal<br/>
 				• Possession of a legal firearm without a valid license = $20,000 Ticket & weapon removal<br/>
 				• Weapon trafficking = $40,000 Ticket and weapon removal<br/>
 				• Reckless driving = $15,000 Ticket = Vehicle Impound = Arrest<br/>
-				• Not using headlights at night = $1,000 Ticket at officers discretion > $2,500 Ticket > Vehicle impound<br/>
+				• Not using headlights at night = $1,000 Ticket at officers discretion = Vehicle impound<br/>
 				• Illegal parking = Vehicle impound<br/>
 				• Public disturbance = Removal from area = $5,000 Ticket = Arrest<br/>
 				• Obstruction of justice = $20,000 Ticket = Arrest<br/>
@@ -122,7 +129,6 @@ player createDiarySubject ["controls","Controls"];
 				• Trespassing = $20,000 Ticket = Arrest<br/>
 				• Rebel clothing on a civilians = $35,000 ticket and confiscation = Arrest<br/>
 				• Rebel vehicles = Destroyed<br/>
-				• Crossing the border with no passport = $150,000 ticket<br/>
 				• Any drug with intent to supply = arrest<br/>
 				• Possession of Marijuana = $20,000 ticket and confiscation<br/>
 				• Possession of Cocaine = $60,000 ticket and confiscation<br/>
@@ -167,6 +173,7 @@ player createDiarySubject ["controls","Controls"];
 				Left Windows: Main Interaction key which is used for picking up items/money, gathering, interacting with cars (repair,etc) and for cops to interact with civilians. Can be rebound to a single key like H by pressing ESC->Configure->Controls->Custom->Use Action 10<br/>
 				Left Shift + L: Activates cop siren lights (as a cop).<br/>
 				Left Shift + H: Holster's your pistol<br/>
+				Left Shift + SPACE: Jump (Whilst Sprinting, be careful!)<br/>
 				"
 		]
 	];
