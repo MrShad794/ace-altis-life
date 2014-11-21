@@ -13,7 +13,7 @@ _veh = typeOf _vehicle;
 
 if(_veh == "O_Heli_Light_02_F") then
 {
-	_vehicle removeMagazinesTurret ["12Rnd_PG_missiles",[0]];
+	_vehicle removeMagazinesTurret ["12Rnd_PG_missiles",[-1]];
 };
 if(_veh == "B_Boat_Armed_01_minigun_F") then
 {

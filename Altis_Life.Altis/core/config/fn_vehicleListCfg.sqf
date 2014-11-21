@@ -89,7 +89,7 @@ switch (_shop) do
 			_return pushBack
 			["O_Heli_Transport_04_F",3500000];
 			_return pushBack
-			["O_Heli_Light_02_F",10000000];
+			["O_Heli_Light_02_F",8000000];
 						
 		};
 	};
