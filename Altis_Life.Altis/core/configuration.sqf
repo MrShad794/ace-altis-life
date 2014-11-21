@@ -25,7 +25,7 @@ life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
 life_respawn_timer = 1; //Scaled in minutes
-Life_request_timer = false;
+life_request_timer = false;
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
@@ -212,8 +212,8 @@ sell_array =
 	["heroinu",5000],
 	["heroinp",10000],
 	["salema",45],
-	["zipties",2000],
 	["ornate",40],
+	["zipties",2000],
 	["mackerel",175],
 	["tuna",700],
 	["mullet",250],
@@ -272,8 +272,8 @@ buy_array =
 	["blastingcharge",10000],
 	["boltcutter",10000],
 	["defusekit",2500],
-	["storagesmall",25000],
-	["storagebig",50000]
+	["storagesmall",100000],
+	["storagebig",150000]
 ];
 __CONST__(buy_array,buy_array);
 

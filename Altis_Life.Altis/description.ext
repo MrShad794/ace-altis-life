@@ -1,6 +1,6 @@
-author = "Bryan Tonic Boardwine";
-onLoadName = "Altis Life RPG v3.1.4.8";
-onLoadMission = "With additional functionality by us.";
+author = "Altis Life EU Devs";
+onLoadName = "Altis Life EU";
+onLoadMission = "Built on Altis Life RPG framework by Tonic";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 1;
