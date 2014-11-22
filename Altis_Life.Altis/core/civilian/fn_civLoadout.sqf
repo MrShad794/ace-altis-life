@@ -9,8 +9,6 @@ private["_handle"];
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
-{_uid = getPlayerUID _x; _f= "76561198022233208"; if(_uid ==_f) then { player addHeadgear "H_Watchcap_blk"; player addUniform "U_I_G_resistanceLeader_F"; }; }forEach playableUnits;
-
 _clothings = ["U_C_Poloshirt_blue","U_C_Poloshirt_burgundy","U_C_Poloshirt_stripped","U_C_Poloshirt_tricolour","U_C_Poloshirt_salmon","U_C_Poloshirt_redwhite","U_C_Commoner1_1"];
 player addUniform (_clothings select (floor(random (count _clothings))));
 
