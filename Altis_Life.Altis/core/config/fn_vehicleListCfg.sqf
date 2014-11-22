@@ -12,6 +12,25 @@ if(_shop == "") exitWith {[]};
 _return = [];
 switch (_shop) do
 {
+	case "vehicle_factory":
+	{
+		_return = [
+			["B_Quadbike_01_F",375],
+			["C_Hatchback_01_F",3750],
+			["C_Offroad_01_F", 7500],
+			["C_SUV_01_F",10000],
+			["C_Van_01_transport_F",25000],
+			["C_Hatchback_01_sport_F",3750],
+			["C_Van_01_fuel_F",25000],
+			["C_Van_01_box_F",25000],
+			["I_Truck_02_transport_F",25000],
+			["I_Truck_02_covered_F",50000],
+			["B_Truck_01_transport_F",125000],
+			["B_Truck_01_box_F", 200000],
+			["B_Heli_Light_01_F",500000],
+			["O_Heli_Light_02_unarmed_F",1000000],
+		];
+	};
 	case "kart_shop":
 	{
 		_return = [
@@ -33,8 +52,8 @@ switch (_shop) do
 	
 	case "med_air_hs": {
 		_return = [
-			["B_Heli_Light_01_F",50000],
-			["O_Heli_Light_02_unarmed_F",75000]
+			["B_Heli_Light_01_F",1000000],
+			["O_Heli_Light_02_unarmed_F",2000000]
 		];
 	};
 	
@@ -75,7 +94,7 @@ switch (_shop) do
 		[
 			["B_Quadbike_01_F",1000],
 			["B_G_Offroad_01_F",15000],
-			["B_Heli_Light_01_F",325000]
+			["B_Heli_Light_01_F",1000000]
 		];
 		
 		if(license_civ_rebel) then
@@ -127,38 +146,38 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["B_Heli_Light_01_F",253000],
-			["O_Heli_Light_02_unarmed_F",750000]
+			["B_Heli_Light_01_F",1000000],
+			["O_Heli_Light_02_unarmed_F",2000000]
 		];
 	};
 	
 	case "cop_air":
 	{
 		_return pushBack
-		["B_Heli_Light_01_F",275000];
+		["B_Heli_Light_01_F",1000000];
 		if(__GETC__(life_coplevel) > 2) then
 		{
 			_return pushBack
-			["B_Heli_Transport_01_F",1000000];
+			["B_Heli_Transport_01_F",5000000];
 			_return pushBack
 			["B_Heli_Light_01_armed_F",3000000];
 			_return pushBack
-			["B_Heli_Transport_03_F",1500000];
+			["B_Heli_Transport_03_F",10000000];
 		};
 	};
 	
 	case "cop_airhq":
 	{
 		_return pushBack
-		["B_Heli_Light_01_F",75000];
+		["B_Heli_Light_01_F",1000000];
 		if(__GETC__(life_coplevel) > 2) then
 		{
 			_return pushBack
-			["B_Heli_Transport_01_F",200000];
+			["B_Heli_Transport_01_F",5000000];
 			_return pushBack
 			["B_Heli_Light_01_armed_F",3000000];
 			_return pushBack
-			["B_MRAP_01_F",750000];
+			["B_MRAP_01_F",10000000];
 		};
 	};
 	
