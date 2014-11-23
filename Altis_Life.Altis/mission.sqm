@@ -2383,46 +2383,46 @@ class Mission
 				class Item94
 				{
 					position[]={8954.4121,69.250305,15502.912};
-					azimut=53.410141;
+					azimut=53.410099;
 					special="NONE";
 					id=151;
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Chop Shop"",life_fnc_chopShopMenu,""chop_shop_1""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Vehicle Broker"",life_fnc_chopShopMenu,""chop_shop_1""];";
 				};
 				class Item95
 				{
 					position[]={19028.809,23.676563,14554.466};
-					azimut=193.47729;
+					azimut=193.47701;
 					special="NONE";
 					id=152;
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Chop Shop"",life_fnc_chopShopMenu,""chop_shop_4""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Vehicle Broker"",life_fnc_chopShopMenu,""chop_shop_4""];";
 				};
 				class Item96
 				{
 					position[]={24655.934,17.861176,23161.094};
-					azimut=152.80029;
+					azimut=152.8;
 					special="NONE";
 					id=153;
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Chop Shop"",life_fnc_chopShopMenu,""chop_shop_2""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Vehicle Broker"",life_fnc_chopShopMenu,""chop_shop_2""];";
 				};
 				class Item97
 				{
 					position[]={5242.1167,78.91523,11515.902};
-					azimut=168.89729;
+					azimut=168.897;
 					special="NONE";
 					id=154;
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Chop Shop"",life_fnc_chopShopMenu,""chop_shop_3""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Vehicle Broker"",life_fnc_chopShopMenu,""chop_shop_3""];";
 				};
 				class Item98
 				{
@@ -16673,9 +16673,8 @@ class Mission
 		{
 			position[]={8959.7256,69.222336,15507.252};
 			name="chop_shop_1";
-			text="Chop Shop";
+			text="Vehicle Broker";
 			type="o_armor";
-			colorName="Color1_FD_F";
 		};
 		class Item26
 		{
@@ -17840,25 +17839,22 @@ class Mission
 		{
 			position[]={24660.627,17.608727,23158.951};
 			name="chop_shop_2";
-			text="Chop Shop";
+			text="Vehicle Broker";
 			type="o_armor";
-			colorName="Color1_FD_F";
 		};
 		class Item171
 		{
-			position[]={5242.2974,78.634445,11514.398};
+			position[]={5242.0938,78.672043,11514.6};
 			name="chop_shop_3";
-			text="Chop Shop";
+			text="Vehicle Broker";
 			type="o_armor";
-			colorName="Color1_FD_F";
 		};
 		class Item172
 		{
 			position[]={19029.779,23.749619,14549.058};
 			name="chop_shop_4";
-			text="Chop Shop";
+			text="Vechicle Broker";
 			type="o_armor";
-			colorName="Color1_FD_F";
 		};
 		class Item173
 		{
