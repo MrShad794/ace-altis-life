@@ -4,7 +4,7 @@
 	This file is to setup variables for the client, there are still other configuration files in the system
 
 *****************************
-****** Backendd Variables *****
+****** Backend Variables *****
 *****************************
 */
 life_query_time = time;
