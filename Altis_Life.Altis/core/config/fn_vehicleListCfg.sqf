@@ -28,7 +28,7 @@ switch (_shop) do
 			["B_Truck_01_transport_F",125000],
 			["B_Truck_01_box_F", 200000],
 			["B_Heli_Light_01_F",500000],
-			["O_Heli_Light_02_unarmed_F",1000000],
+			["O_Heli_Light_02_unarmed_F",1000000]
 		];
 	};
 	case "kart_shop":

@@ -356,7 +356,7 @@ life_garage_sell =
 [
 	["B_Quadbike_01_F",950],
 	["C_Hatchback_01_F",4500],
-	["C_Offroad_01_F", 10000],
+	["C_Offroad_01_F",10000],
 	["B_G_Offroad_01_F",3500],
 	["C_SUV_01_F",15000],
 	["C_Van_01_transport_F",50000],
@@ -367,7 +367,7 @@ life_garage_sell =
 	["I_Truck_02_transport_F",50000],
 	["I_Truck_02_covered_F",75000],
 	["B_Truck_01_transport_F",200000],
-	["B_Truck_01_box_F", 275000],
+	["B_Truck_01_box_F",275000],
 	["O_MRAP_02_F",65000],
 	["O_Heli_Light_02_F",5000000],
 	["B_Heli_Light_01_F",750000],
