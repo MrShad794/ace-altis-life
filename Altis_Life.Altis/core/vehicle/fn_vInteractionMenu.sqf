@@ -71,7 +71,7 @@ if(playerSide == west) then {
 	if(_curTarget isKindOf "Ship" && (typeOf (_curTarget) in ["C_Rubberboat","C_Boat_Civil_01_F","C_Boat_Civil_01_rescue_F","C_Boat_Civil_01_police_F","I_Boat_Transport_01_F","I_G_Boat_Transport_01_F","O_G_Boat_Transport_01_F","O_Lifeboat","O_Boat_Transport_01_F","B_G_Boat_Transport_01_F","B_Lifeboat","B_Boat_Transport_01_F"]) ) then {
 		_Btn4 ctrlSetText localize "STR_vInAct_Parasail";
 		_Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_Parasail; closeDialog 0;";
-	} else { if (! (typeOf (_curTarget) in ["C_Rubberboat","C_Boat_Civil_01_F","C_Boat_Civil_01_rescue_F","C_Boat_Civil_01_police_F","I_Boat_Transport_01_F","I_G_Boat_Transport_01_F","O_G_Boat_Transport_01_F","O_Lifeboat","O_Boat_Transport_01_F","B_G_Boat_Transport_01_F","B_Lifeboat","B_Boat_Transport_01_F"]) ) then { _Btn4 ctrlEnable false; }; };
+	} else { if (! (typeOf (_curTarget) in ["C_Rubberboat","C_Boat_Civil_01_F","C_Boat_Civil_01_rescue_F","C_Boat_Civil_01_police_F","I_Boat_Transport_01_F","I_G_Boat_Transport_01_F","O_G_Boat_Transport_01_F","O_Lifeboat","O_Boat_Transport_01_F","B_G_Boat_Transport_01_F","B_Lifeboat","B_Boat_Transport_01_F"]) ) then { _Btn4 ctrlShow false; }; };
 
 	if(_curTarget isKindOf "Ship") then {
 		_Btn2 ctrlSetText localize "STR_vInAct_PushBoat";
