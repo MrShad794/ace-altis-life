@@ -13,6 +13,6 @@ if(isNull _curs) exitWith {};
 if(_curs isKindOf "Air") exitWith { hint "You need a boat to parasail." };
 if(_curs isKindOf "Car") exitWith { hint "You need a boat to parasail." };
 
-player attachTo [curS,[0,-18,10]];
+player attachTo [_curs,[0,-18,10]];
 paraC = "NonSteerable_Parachute_F" createvehicle position vehicle player; paraC attachTo [vehicle player,[0,0,0.5]];
 hint "Press Shift+U to detach yourself when you are done Parasailing!        Have fun!";
