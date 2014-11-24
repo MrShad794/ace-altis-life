@@ -97,7 +97,7 @@ switch (_code) do
 			};
 		};
 	};
-	
+
 	//Restraining (Shift + R)
 	case 19:
 	{
@@ -235,7 +235,16 @@ switch (_code) do
 	//U Key
 	case 22:
 	{
-		if(!_alt && !_ctrlKey) then {
+		if(_shift) then {
+			player addBackpack "B_Parachute";
+			detach paraC;
+			detach player;
+			player setPosASL [getPosASL player select 0, getPosASL player select 1, 150]; hint "Have a safe landing! (speed <15km/h)";
+			player action ["openParachute", player];
+			_handled = true;
+		
+		};
+		if(!_alt && !_ctrlKey && !_shift) then {
 			if(vehicle player == player) then {
 				_veh = cursorTarget;
 			} else {
