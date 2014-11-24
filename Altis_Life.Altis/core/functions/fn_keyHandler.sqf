@@ -237,8 +237,8 @@ switch (_code) do
 	case 22:
 	{
 		if(_shift) then {
-		 if((_high select 2) < 12) exitWith {};
-		 if((_high select 2) > 8) exitWith {};
+		 if((_high select 2) > 12) exitWith {};
+		 if((_high select 2) < 8) exitWith {};
 			player addBackpack "B_Parachute";
 			detach paraC;
 			detach player;

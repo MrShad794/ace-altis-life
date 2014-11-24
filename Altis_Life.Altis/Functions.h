@@ -115,7 +115,7 @@ class Life_Client_Core
 		class robAction {};
 		class captureHideout {};
 		class gather {};
-		class parasail {};
+		class Parasail {};
 	};
 	
 	class Housing
