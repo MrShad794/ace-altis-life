@@ -2,7 +2,13 @@
 /*
 	Master Life Configuration File
 	This file is to setup variables for the client, there are still other configuration files in the system
-
+								!!!!!!!!!!!!!
+								!!!WARNING!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!DO NOT ADD STORAGEBOXES TO SELL, THIS WILL BREAK THE DATABASE!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+								!!!WARNING!!!
+								!!!!!!!!!!!!!
 *****************************
 ****** Backend Variables *****
 *****************************
